@@ -1,0 +1,2 @@
+docker build -t 3_webservice:1 .
+docker run -p5000:5000 --name 3_webservice 3_webservice:1 .

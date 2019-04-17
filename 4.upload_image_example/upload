@@ -1,0 +1,3 @@
+docker login --username=yourhubusername
+docker tag 3_webservice:1 frandres/3_webservice:1
+docker push frandres/3_webservice:
